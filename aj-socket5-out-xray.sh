@@ -120,7 +120,7 @@ do
         \"auth\": \"password\",
         \"accounts\": [
           {
-            \"user\": \"root\",
+            \"user\": \"wukunpeng\",
             \"pass\": \"aj8888\"
           }
         ],
@@ -219,7 +219,7 @@ systemctl daemon-reload
 systemctl enable xray
 systemctl restart xray
 
-echo "Socks5 节点已启动，请使用 root / aj8888 进行连接"
+echo "Socks5 节点已启动，请使用 wukunpeng / aj8888 进行连接"
 IN_IP=$(curl -s ifconfig.me)
 #!/bin/bash
 # Usage: ./xray_setup.sh COUNTRY_CODE INBOUND_DOMAIN OUTBOUND_DOMAIN [SOCKS5_COUNT]
@@ -344,7 +344,7 @@ do
         \"auth\": \"password\",
         \"accounts\": [
           {
-            \"user\": \"root\",
+            \"user\": \"wukunpeng\",
             \"pass\": \"aj8888\"
           }
         ],
@@ -443,9 +443,9 @@ systemctl daemon-reload
 systemctl enable xray
 systemctl restart xray
 
-echo "Socks5 节点已启动，请使用 root / aj8888 进行连接"
+echo "Socks5 节点已启动，请使用 wukunpeng / aj8888 进行连接"
 IN_IP=$(curl -s ifconfig.me)
-USER="root"
+USER="wukunpeng"
 PASS="aj8888"
 # 生成所有 SOCKS5 链接并保存
 for ((i=0; i<SOCKS5_COUNT; i++))
