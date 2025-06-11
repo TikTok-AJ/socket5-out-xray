@@ -37,10 +37,10 @@ function enable_bbr() {
 }
 
 function get_country_code() {
-  IP=$(curl -s ifconfig.me)
-  CODE=$(curl -s "https://ipapi.co/${IP}/country/")
+  CODE=$(curl -s https://ipinfo.io/country)
   echo $CODE
 }
+
 
 function detect_or_choose_country() {
   if $AUTO_MODE; then
