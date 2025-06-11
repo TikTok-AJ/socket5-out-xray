@@ -5,11 +5,14 @@
 ### 🔧 shell运行以下脚本
 
 ```bash
-curl -s https://raw.githubusercontent.com/TikTok-AJ/socket5-out-xray/refs/heads/main/aj-socket5-out-xray.sh | bash -s --"国家代码" 数量
+curl -s https://raw.githubusercontent.com/TikTok-AJ/socket5-out-xray/refs/heads/main/aj-socket5-out-xray.sh | bash -s --"US" 1
 ```
 
 ```bash
 curl -s https://raw.githubusercontent.com/TikTok-AJ/socket5-out-xray/refs/heads/main/aj-socket5-out-xray.sh | bash -s --"国家代码" 数量
+
+修改 国家代码  数量
+
 ---
 
 
