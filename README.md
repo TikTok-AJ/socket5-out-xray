@@ -18,7 +18,7 @@
 ### 🔧 手动菜单模式（推荐首次使用）
 
 ```bash
-bash <(curl -sSL https://yourdomain.com/socket5-out-xray.sh)
+bash <(curl -sSL https://github.com/TikTok-AJ/socket5-out-xray.sh)
 ```
 
 运行后会出现中文菜单，可选择安装/重装/查看/卸载节点等操作。
@@ -28,7 +28,7 @@ bash <(curl -sSL https://yourdomain.com/socket5-out-xray.sh)
 ### 🤖 自动模式（无人值守，适合脚本化）
 
 ```bash
-bash <(curl -sSL https://yourdomain.com/socket5-out-xray.sh) --auto
+bash <(curl -sSL https://github.com/TikTok-AJ/socket5-out-xray) --auto
 ```
 
 自动完成以下内容：
