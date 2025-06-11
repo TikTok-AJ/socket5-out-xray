@@ -13,10 +13,10 @@ curl -s https://raw.githubusercontent.com/TikTok-AJ/socket5-out-xray/refs/heads/
 
 修改 国家代码  数量
 
-
+```
 
 ## 💡 注意事项
 
 - 默认用户名为：`wukunpeng`，密码为：`aj8888`
 - 支持所有主流国家（US / UK / DE / JP / FR / MX / ES ）
-```
+
